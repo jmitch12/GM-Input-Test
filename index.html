@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>GoMedicare</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/d4735a57e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="top">
+
+  </header>
+  <main>
+
+    <div="inputs">
+      <form id="myForm" onsubmit="return validateForm()">
+        <label for="fname">First Name</label>
+        <input type="text" id="fnameInput" name="firstname" placeholder="Your name..">
+        <span id="fnameError"></span>
+        <label for="zip">ZIP Code</label>
+        <input type="text" id="zipInput" name="zip" placeholder="Your last name.." maxlength="5">
+        <span id="zipError"></span>
+        <input type="submit" value="Submit">
+        <span id="success"></span>
+
+        <!-- <div class="button">
+          <button id="submit-btn" type="button" name="Final" onclick="location.href = 'https://gohealth.invisionapp.com/console/share/TY74QP6BWJ8';">Submit</button>
+        </div> -->
+      </form>
+      </div>
+
+  </main>
+
+  <footer id="contact">
+  </footer>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
